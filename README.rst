@@ -10,7 +10,6 @@ Features
 
 * Most colors was slightly changed, most notable changes:
 
-  * search color changed from violet to orange
   * comments are gray instead of yellowish
   * changed diff colors to be less vivid
 
@@ -35,15 +34,15 @@ Installation
 To install it, any kind of Vim package manager can be used, like NeoBundle_,
 Pathogen_, Vundle_ or vim-plug_.
 
-For manual installation, copy subdirectories from this repository to your
-``~/.vim`` directory. To use it, just type ``:colorscheme wombat256grf``, or
+For manual installation, copy ``colors`` subdirectory from this repository to your
+``~/.vim`` or ``~/.config/nvim/`` directory. To use it, just type ``:colorscheme wombat``, or
 append line:
 
 .. code:: vim
 
    ...
    " change colorscheme
-   colorscheme wombat256grf
+   colorscheme wombat
    ...
 
 to make it permanent.
