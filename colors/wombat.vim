@@ -2,10 +2,10 @@
 " Maintainer: Roman 'gryf' Dobosz
 " Last Change: 2017-05-30
 "
-" wombat256grf.vim - a modified version of Wombat by Lars Nielsen (at al) that 
-" also works on xterms with 88 or 256 colors. Instead of hard coding colors 
-" for the terminal, algorithm for approximating the GUI colors with the xterm 
-" palette was used. Approximation function was taken from desert256.vim by 
+" wombat256grf.vim - a modified version of Wombat by Lars Nielsen (at al) that
+" also works on xterms with 88 or 256 colors. Instead of hard coding colors
+" for the terminal, algorithm for approximating the GUI colors with the xterm
+" palette was used. Approximation function was taken from desert256.vim by
 " Henry So Jr.
 
 set background=dark
@@ -234,7 +234,7 @@ fun <SID>X(group, fg, bg, attr)
 	endif
 endfun
 
-" same as above, but makes it for the spell-like things 
+" same as above, but makes it for the spell-like things
 fun <SID>Y(group, bg)
 	if ! has('gui_running')
 		if a:bg != ""
