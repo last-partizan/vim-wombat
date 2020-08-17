@@ -271,12 +271,12 @@ if version > 700
 	endif
 endif
 
-call <SID>X("Search",		"444444",	"ffab4b",	"")
+call <SID>X("Search",		"d787ff",	"636066",	"")
 call <SID>X("MatchParen",	"ecee90",	"857b6f",	"bold")
 call <SID>X("SpecialKey",	"6c6c6c",	"2d2d2d",	"none")
-call <SID>X("Visual",		"",	"26512D",	"none")
+call <SID>X("Visual",		"c3c6ca",   "554d4b",	"none")
 call <SID>X("LineNr",		"857b6f",	"121212",	"none")
-call <SID>X("SignColumn",   "",	"121212",	"none")
+call <SID>X("SignColumn",   "",			"121212",	"none")
 call <SID>X("Folded",		"a0a8b0",	"404048",	"none")
 call <SID>X("Title",		"f6f3e8",	"",			"bold")
 call <SID>X("VertSplit",	"444444",	"444444",	"none")
