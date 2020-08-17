@@ -275,7 +275,8 @@ call s:HlGroup("StatusLine",	"#f6f3e8",	"#444444",	s:italic)
 call s:HlGroup("StatusLineNC",	"#857b6f",	"#444444",	"none")
 call s:HlGroup("Pmenu",			"#f6f3e8",	"#444444",	"")
 call s:HlGroup("PmenuSel",		"#121212",	"#caeb82",	"")
-call s:HlGroup("WarningMsg",	"#ff0000",	"",			"")
+call s:HlGroup("WarningMsg",	"#ffaa00",	"#222222",  "")
+call s:HlGroup("ErrorMsg",		"#e5786d",	"#222222",	"")
 
 hi! link VisualNOS	Visual
 hi! link FoldColumn	Folded
@@ -329,7 +330,7 @@ call s:HlGroup("Special",		"#ffdead",	"",			"none")
 
 call s:HlGroup("Error", "#bbbbbb", "#aa0000", s:italic)
 
-call s:HlGroup("Todo", "#666666", "#aaaa00", s:italic)
+call s:HlGroup("Todo", "#121212", "#fde76e", s:italic)
 
 " Diff
 call s:HlGroup("DiffAdd",    "", 		"#505450", "bold")
