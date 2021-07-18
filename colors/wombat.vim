@@ -354,14 +354,9 @@ call s:HlGroup("ShowMarksHLu", "#aaab42", "#121212", "bold")
 call s:HlGroup("ShowMarksHLo", "#42ab47", "#121212", "bold")
 call s:HlGroup("ShowMarksHLm", "#aaab42", "#121212", "bold")
 
-" Syntastic
-call s:HlSpell("SyntasticError ", "#880000")
-call s:HlSpell("SyntasticWarning", "#886600")
-call s:HlSpell("SyntasticStyleError", "#ff6600")
-call s:HlGroup("SyntasticErrorSign", "", "#880000", "")
-call s:HlGroup("SyntasticWarningSign", "", "#886600", "")
-call s:HlGroup("SyntasticStyleErrorSign", "", "#ff6600", "")
-call s:HlGroup("SyntasticStyleWarningSign", "", "#ffaa00", "")
+" Coc
+hi CocUnderline guisp=NORMAL gui=underline cterm=underline
+hi CocStrikeThrough guisp=NORMAL gui=strikethrough cterm=strikethrough
 
 " Signify
 call s:HlGroup("SignifySignAdd",    "#a0cc00", "#2d2d2d", "")
